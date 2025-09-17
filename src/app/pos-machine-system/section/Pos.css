@@ -1,0 +1,250 @@
+.PaymentHeaderGradient {
+  background: linear-gradient(90deg, #ededed 0%, #9573de 50%, #f8f8f8 64.42%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.PaymentBorderLineGradient{
+    background: linear-gradient(180deg, var(--color-grey-12, #1C1D22) 0%, #707488 100%);
+}
+.HorizentalSliderHeaderGradient{
+ background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+}
+.HoriZentalSliderGradientTop{
+   position: absolute;
+  inset:-7% 40% 68% 31%;
+  z-index: -1;
+  border-radius: 138px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(80px);
+}
+.HoriZentalSliderGradientBottom1{
+   position: absolute;
+  inset:34% 59% 18% 8%;
+  z-index: 1;
+border-radius: 138px;
+opacity: 1;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(65px);
+}
+.HoriZentalSliderGradientBottom2{
+   position: absolute;
+  inset:34% 9% 18% 61%;
+  z-index: 11;
+border-radius: 138px;
+opacity: 01;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(65px);
+}
+.HorizentalSliderBorder{
+
+    border-color: transparent;
+  background:
+    linear-gradient(#080219, #080219) padding-box, /* inner background */
+    linear-gradient(
+      to bottom right,
+      rgba(74,74,74,0.5) 0%,     /* top-left corner (low opacity) */
+      rgba(74,74,74,0.3) 30%,    /* top/right side fade */
+      rgba(74,74,74,0.2) 70%,     /* bottom/left stronger */
+      rgba(74,74,74,0.2) 100%     /* bottom-right corner strong */
+    ) border-box;
+}
+
+
+.PosFeatureGradientTop1{
+    border-radius: 50%;
+  opacity: 1;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(100px);
+  position: absolute;
+  inset:0% 4% 80% 49%;
+  z-index: -1;
+}
+
+.PosFeatureGradientBottom1{
+    border-radius: 50%;
+  opacity: 1;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(100px);
+  position: absolute;
+  inset:77% 15% 1% 11%;
+  z-index: -1;
+}
+
+.PosFeatureGradientBottom2{
+    border-radius: 50%;
+  opacity: 1;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(100px);
+  position: absolute;
+  inset:76% 8% 1% 11%;
+  z-index: -1;
+}
+.PosCustom-dot {
+  background-color: #fff; /* inactive */
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 2px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.swiper-pagination-bullet-active.PosCustom-dot {
+  background-color: #4F31B4; /* active */
+ width:14px;
+ border-radius:9.17px;
+}
+
+.PosMachineHeaderGradient{
+  background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.PosMachineGradientTopMob{
+    border-radius: 50%;
+  opacity: 1;
+background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(95.65216827392578px);
+  position: absolute;
+  inset:-4% 15% 85% 10%;
+  z-index: -1;
+}
+.PosMachineGradientTop{
+   position: absolute;
+  inset:0% 0% 60% 80%;
+  background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(125px);
+ border-radius: 50%;
+}
+.PosMachineGradientBottom{
+   position: absolute;
+  inset:85% 2% -5% 36%;
+  background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(125px);
+ border-radius: 50%;
+ z-index:-1;
+}
+.HeroSectionHeaderGradient{
+  background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.HerosectionGradient1{
+   position: absolute;
+  inset:50% 85% 1% 0%;
+  z-index: 1;
+  border-radius: 382px;
+background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(180px);
+opacity:0.4;
+
+}
+.HerosectionGradient2{
+    position: absolute;
+  inset:56% 1% 8% 90%;
+  z-index: 1;
+ border-radius: 361px;
+background: linear-gradient(180deg, rgba(23, 9, 49, 0.62) 0%, rgba(98, 83, 126, 0.62) 100%);
+filter: blur(75px);;
+}
+.swiper-slide-image {
+  z-index: 1;
+  position: relative;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+}
+
+.swiper-slide-active .swiper-slide-image {
+  z-index: 10; /* bring active image to front */
+  transform: scale(1.05); /* optional zoom effect */
+}
+.PosSystemSliderCardHeader{
+  background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.PosSystemSliderHeaderGradient{
+  background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.PosbusinessBankingGradient1{
+  position: absolute;
+  inset:50% 73% 1% 0%;
+  /* z-index: -1; */
+border-radius: 382px;
+background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(120px);
+}
+.PosbusinessBankingGradient2{
+  position: absolute;
+  inset:38% 0% 1% 0%;
+  z-index: 10;
+border-radius: 382px;
+background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(160px);
+}
+@media (max-width:1023px){
+.PosMachineGradientBottom{
+  display:none;
+}
+.PosbusinessBankingGradient1{
+inset: 0% 0% 79% 50%;
+}
+  .HerosectionGradient1{
+        inset: 28% 55% 35% 0%;
+  }
+    .HerosectionGradient2{
+    display:none;
+  }
+}
+@media (max-width:767px){
+
+
+.PosFeatureGradientTop1{
+   inset:5% 7% 68% 8%;
+}
+.PosFeatureGradientBottom1{
+  display:none;
+}
+.PosFeatureGradientBottom2{
+    inset:65% 1% 3% 1%;
+}
+.HoriZentalSliderGradientBottom1{
+  display:none;
+}
+.HoriZentalSliderGradientBottom2{
+  display:none;
+}
+.HoriZentalSliderGradientTop{
+ inset:-20% 0% 53% 0%;
+}
+}
+
+
+.gradiantzyx{
+  background: linear-gradient(129deg,rgba(169, 1, 163, 0.60) 0%, rgba(111, 65, 210, 0.5) 100%);
+
+}

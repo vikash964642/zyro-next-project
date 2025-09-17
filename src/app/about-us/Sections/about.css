@@ -1,0 +1,153 @@
+.aboutheader,
+.whoWeHeader,
+.missionhead,
+.visionHead,
+.coreheader,
+.accelerateHead {
+  background: linear-gradient(90deg, #ededed 0%, #9573de 50%, #f8f8f8 64.42%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* .accelerateHead{
+  background-image: url('/image//AboutUs//backgroundImage.svg');
+  position: absolute;
+  background-repeat: no-repeat;
+} */
+
+.left-gradiant{
+ border-radius: 382px;
+background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(200px);
+  position: absolute;
+  inset: -16% 76% -6% -15%;
+  z-index: -1;
+  overflow: hidden;
+  opacity:0.4;
+}
+
+.right-gradiant {
+    position: absolute;
+    z-index:-1;
+  border-radius: 361px;
+background: linear-gradient(180deg, #170931 0%, #62537E 100%);
+filter: blur(200px);
+  inset: -62% -2% 26% 78%;
+  opacity:0.4
+}
+.center-gradiant {
+  position:absolute;
+  border-radius: 138px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+  inset: -62% 21% 111% 21%;
+  z-index:-1;
+}
+
+/* who We are start */
+
+.bgGradiant {
+  /* border-radius: 50%;
+  opacity: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(164, 137, 255, 0.94) 0%,
+    rgba(52, 52, 52, 0.6) 100%
+  );
+  filter: blur(250px); */
+  border-radius: 138px;
+opacity: 0.53;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38px);
+  position: absolute;
+  inset: 36% -1% -11% -3%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* who We are end */
+
+/* mission and vision start */
+
+.leftGradiant,
+.CenterGradiant,
+.RightGradiant {
+  border-radius: 50%;
+  opacity: 0.6;
+  background: linear-gradient(
+    90deg,
+    rgba(164, 137, 255, 0.94) 0%,
+    rgba(52, 52, 52, 0.6) 100%
+  );
+  filter: blur(250px);
+  position: absolute;
+  inset: 66% 69% 6% -1%;
+  overflow: hidden;
+}
+.CenterGradiant {
+  inset: 0% 27% 80% 34%;
+}
+.RightGradiant {
+  inset: 54% -2% 21% 62%;
+}
+
+/* mission and vision end */
+
+/* Accelerate start */
+
+.sap{
+  background-position-x: center;
+    background-position-y: -10rem;
+}
+.Core-Values-gradiant {
+  border-radius: 138px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+  position: absolute;
+  inset: 34% 11% 25% 21%;
+  z-index: -1;
+}
+
+.accelerate-gradiant{
+  
+  border-radius: 460.75px;
+opacity: 0.2;
+background: linear-gradient(32deg, rgba(141, 49, 245, 0.00) 0%, rgba(141, 49, 245, 0.90) 100%, rgba(255, 255, 255, 0.90) 100%);
+filter: blur(100.74702453613281px);
+  position: absolute;
+  inset: -10% 11% -92% 21%;
+  z-index: -1;
+}
+
+/* Accelerate end */
+
+@media (max-width: 1024px) {
+  .left-gradiant {
+    inset: 67% 69% -5% 0%;
+  }
+
+  .center-gradiant {
+    inset: -59% 1% 69% 51%;
+  }
+
+  .bgGradiant {
+    inset: 33% 10% 3% 4%;
+  }
+
+  .leftGradiant {
+    inset: 2% 0% 79% 28%;
+  }
+  .CenterGradiant {
+    inset: 37% 19% 45% 11%;
+  }
+  .RightGradiant {
+    inset: 82% 10% 0% 13%;
+  }
+
+  .sap{
+    background-position-x: center;
+    background-position-y: center;
+  }
+}

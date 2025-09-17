@@ -1,0 +1,211 @@
+.HeroSectionGradientLeft{
+      position: absolute;
+  inset:0% 80% 25% 0%;
+  z-index: -1;
+border-radius: 382px;
+background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(200px);
+}
+.HeroSectionGradientRight{
+      position: absolute;
+  inset:0% 0% 25% 80%;
+  z-index: -1;
+border-radius: 361px;
+background: linear-gradient(180deg, #170931 0%, #62537E 100%);
+filter: blur(200px);
+}
+.ConnectedCardSliderTopGradient{
+    position: absolute;
+  inset:10% 40% 63% 31%;
+  z-index: -1;
+  border-radius: 138px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(60px);
+}
+.ConnectedCardSliderBottomGradient{
+    position: absolute;
+ inset: 20% 20% 33% 20%;
+  z-index: -1;
+  border-radius: 138px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(50px);
+}
+.BulkpaymentGradient{
+    position: absolute;
+  inset:39% 75% 25% 10%;
+  z-index: -1; 
+  border-radius: 138px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+}
+.BusinessCardGradient{
+border-radius: 431.5px;
+opacity: var(--opacity-50, 0.5);
+background: radial-gradient(50% 50% at 50% 50%, var(--color-grey-2070, rgba(46, 48, 56, 0.70)) 0%, var(--color-grey-200, rgba(46, 48, 56, 0.00)) 100%);
+height:245px;
+width:100%;
+top:30%;
+position:absolute;
+z-index:-1;
+}
+.BusinessCardBorder {
+  border: 0.34px solid transparent;
+  background:
+    linear-gradient(#080219, #080219) padding-box, /* inner background */
+    linear-gradient(to bottom right, rgba(121, 121, 121, 0.5), rgba(111, 65, 210, 0.7)) border-box; /* gradient border reversed */
+
+}
+.businessCardBorder1{
+    background: var(--color-grey-12, #1C1D22);
+}
+
+.businessCardheaderColor1{
+    background: linear-gradient(90deg, #EDEDED 16.83%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.businessCardheaderColor2{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.90) 16.35%, rgba(155, 120, 234, 0.90) 49.67%, rgba(255, 255, 255, 0.90) 82.69%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.ConnectedCardSliderHeader{
+    background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.PayOutfeatures-gradient{
+    position: absolute;
+    inset: 26% 22% 24% 23%;
+  z-index: -1;
+border-radius: 138px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91px);
+
+}
+
+.borderFade {
+  border-color: transparent; /* so Tailwind's 0.4px thickness still applies */
+  background:
+    linear-gradient(#080219, #080219) padding-box, /* inner bg */
+    linear-gradient(to bottom, rgba(74,74,74,0.4), rgba(74,74,74,0.3)) border-box;
+
+}
+
+.heroSectionHeaderGradient{
+   background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+}
+.bulkPaymentHeaderGradient{
+    background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.BuiltBusinessHeaderGradient{
+background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.border-businessCardBorder1{
+  background: var(--color-grey-12, #1C1D22);
+  height:1px;  
+}
+.SheduledPayoutsBorder{
+  opacity: 0.9981;
+background: linear-gradient(0deg, #767676 0%, #FF8400 48.96%, #DF91F7 100%);
+}
+.SheduledPayoutHeaderGradient{
+  background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.PayoutbusinessBankingGradient1{
+  border-radius: 382px;
+background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(200px);
+  position: absolute;
+    inset: 54% 70% 0% -12%;
+ 
+}
+.PayoutbusinessBankingGradient2{
+border-radius: 382px;
+background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(200px);
+  position: absolute;
+    inset:55% 22% 0% -33%;;  
+    z-index:-1;
+}
+@media (max-width:1024px){
+   .PayoutbusinessBankingGradient1{
+inset:-33% -2% 65% 62%;
+   } 
+  
+    .PayoutbusinessBankingGradient2{
+inset: -6% -6% 0% -33%;
+   }
+.bulkPaymentHeaderGradient{
+  background: linear-gradient(234deg, #FFF 7.67%, #9573DE 82.67%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;  
+}
+.BuiltBusinessHeaderGradient{
+    background: linear-gradient(234deg, #FFF 7.67%, #9573DE 82.67%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.BulkpaymentGradient{
+   inset:4% 27% 75% 28%;
+   border-radius: 61px;
+opacity: 0.2;
+background: linear-gradient(32deg, rgba(141, 49, 245, 0.00) 0%, #8D31F5 100%, #FFF 100%);
+filter: blur(58.3769645690918px); 
+}
+.BuiltBusinessGradient{
+     position: absolute;
+     inset: 0% 24% 75% 29%;
+  z-index: -1; 
+  border-radius: 61px;
+opacity: 0.2;
+background: linear-gradient(32deg, rgba(141, 49, 245, 0.00) 0%, #8D31F5 100%, #FFF 100%);
+filter: blur(58.3769645690918px);  
+}
+}
+@media (max-width:767px){
+.HeroSectionGradientRight{
+  display:none
+}
+.HeroSectionGradientLeft{
+      position: absolute;
+  inset: 0% 8% 85% 8%;
+  z-index:-1;
+ border-radius: 266.708px;
+opacity: 0.75;
+background: linear-gradient(180deg, #601EF9 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(55px);
+}
+}
+
+.PayoutCardBorder {
+  border: 0.34px solid transparent;
+  background:
+    linear-gradient(#080219, #080219) padding-box, /* inner background */
+    linear-gradient(to bottom right, rgba(121, 121, 121, 0.5), rgba(111, 65, 210, 0.7)) border-box; /* gradient border reversed */
+ 
+}

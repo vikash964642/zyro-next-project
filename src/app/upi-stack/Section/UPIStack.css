@@ -1,0 +1,463 @@
+
+.HeroSectionHeaderGradient{
+  background: linear-gradient(234deg, #FFF 38.94%, #9573DE 72.6%, #FFF 89.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.HeroSectionTopGradient{
+  background: linear-gradient(180deg, rgba(64, 28, 139, 0.44) 0%, rgba(255, 255, 255, 0.00) 100%);
+opacity: 0.75;
+filter: blur(91.38888549804688px);
+position:absolute;
+  inset:-12% 26% 96% 22%;
+}
+.HeroSectionImageGradient1{
+  background: linear-gradient(180deg, rgba(64, 28, 139, 0.44) 0%, rgba(255, 255, 255, 0.00) 100%);
+opacity: 0.75;
+filter: blur(91.38888549804688px);
+position:absolute;
+z-index:-1;
+inset:43% 12% 34% 57%;
+}
+.HeroSectionImageGradient2{
+  background: linear-gradient(180deg, rgba(64, 28, 139, 0.44) 0%, rgba(255, 255, 255, 0.00) 100%);
+opacity: 0.75;
+filter: blur(91.38888549804688px);
+position:absolute;
+z-index:-1;
+inset:66% 67% 5% 4%;
+}
+.CompleteSolutionHeaderGradient{
+    background: linear-gradient(90deg, #EDEDED 16.83%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.CompleteSolBoxHeaderGradient {
+  background: linear-gradient(180deg, #4f31b4 0%, #d8d8d8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.CompleteSol-gradient-left {
+  background: linear-gradient(
+    180deg,
+    rgba(64, 28, 139, 0.44) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0.75;
+  filter: blur(91.38px);
+  position: absolute;
+  z-index: -1;
+  inset: 45% 65% 13% 11%;
+
+}
+.CompleteSol-gradient-Right {
+  background: linear-gradient(
+    180deg,
+    rgba(64, 28, 139, 0.44) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0.75;
+  filter: blur(91.38px);
+  position: absolute;
+  z-index: -1;
+  inset: 45% 9% 13% 67%;
+}
+.CompleteSol-gradient-Top {
+  border-radius: 175.5px;
+  opacity: 0.75;
+  background: linear-gradient(
+    180deg,
+    rgba(64, 28, 139, 0.59) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: blur(91.38888549804688px);
+  position: absolute;
+  z-index: -1;
+  inset: 2% 29% 65% 30%;
+}
+.upiIssuingHeaderGradient {
+  background: linear-gradient(234deg, #fff 38.94%, #9573de 72.6%, #fff 89.42%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.UPIIssuingStackGradientTop {
+  border-radius: 200px;
+  opacity: 1;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(120px);
+  position: absolute;
+  z-index: 20;
+  inset: 0% 15% 72% 51%;
+}
+.UPIIssuingStackGradient1 {
+  border-radius: 200px;
+  opacity: 1;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(120px);
+  position: absolute;
+  z-index: 20;
+  inset: 72% 65% 0% 0%;
+}
+.UPIIssuingStackGradient2 {
+  border-radius: 200px;
+  opacity: 1;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(120px);
+  position: absolute;
+  z-index: 20;
+  inset: 66% 0% 1% 60%;
+}
+
+
+.upiIssuingBorderGradient {
+  background: linear-gradient(
+    129deg,
+    rgba(169, 1, 163, 0.6) 0%,
+    rgba(111, 65, 210, 0.5) 100%
+  );
+}
+
+/* upi advantage start */
+
+.textGradientUpiHead {
+  background: linear-gradient(234deg, #fff 38.94%, #9573de 72.6%, #fff 89.42%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0px 43px;
+}
+
+.gridSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 18px;
+  height: 416px;
+  width: 100%;
+  margin-top: 39px;
+}
+.gridSection .child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(
+    120deg,
+    rgba(169, 1, 163, 0.6) 6%,
+    rgba(111, 65, 210, 0.6) 36%
+  );
+}
+.child div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #080219;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: 16px;
+}
+.gridSection div h3 {
+ background: linear-gradient(270deg, #4F31B4 0%, #D8D8D8 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  width: 60%;
+}
+.gridSection div p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #9e9c9f;
+  padding: 5px 50px;
+}
+.reliable {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.scalability {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.transparency {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.advance {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.work {
+  grid-area: 1 / 2 / 3 / 3;
+}
+
+
+.gridCenterGradient{
+ border-radius: 175.5px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(182px);
+  position: absolute;
+  z-index: -1;
+  inset: 24% 23% 24% 23%;
+}
+
+@media (max-width: 990px) {
+  
+  .gridCenterGradient{
+      inset: 13% 23% 12% 23%;
+  }
+  .gridSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 13px;
+    grid-row-gap: 15px;
+    color: #9e9c9f;
+    height: 577px;
+    padding: 0px  12px 0px 20px;
+  }
+
+  .gridSection div h3{
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .gridSection div p{
+    font-size: 12px;
+    line-height: 17px;
+    padding: 5px 20px;
+  }
+
+  .reliable {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .scalability {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .work {
+    grid-area: 1 / 2 / 3 / 3;
+  }
+  .transparency {
+    grid-area: 3 / 1 / 4 / 3;
+  }
+  .advance {
+    grid-area: 4 / 1 / 5 / 3;
+  }
+}
+
+/* upi advantage end */
+
+/* We help start */
+.WeHelpGradientButton {
+  position: absolute;
+  inset: 52% 78% 1% 0%;
+  border-radius: 382px;
+  background: linear-gradient(180deg, #a489ff 0%, #343434 100%);
+  filter: blur(200px);
+}
+
+.WeHelpGradientImg {
+  position: absolute;
+  inset: 38% 0% 1% 29%;
+  z-index: 10;
+  border-radius: 402px;
+  background: linear-gradient(180deg, #170931 0%, #62537e 100%);
+  filter: blur(200px);
+}
+/* we help end */
+
+@media (max-width: 1023px) {
+  .WeHelpGradientButton {
+    inset: 0% 0% 79% 50%;
+  }
+}
+@media (max-width: 639px) {
+  .CompleteSol-gradient-Top {
+    inset: 2% 0% 69% 0%;
+  }
+}
+.upiIssuingBorderGradient{
+        background: linear-gradient(129deg, rgba(169, 1, 163, 0.60) 0%, rgba(111, 65, 210, 0.5) 100%);
+        box-shadow: 0 4.091px 4.091px 0 rgba(61, 61, 61, 0.25);
+}
+.UPIAcquiringStackHeaderGradient{
+    background: linear-gradient(234deg, #FFF 38.94%, #9573DE 72.6%, #FFF 89.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.UPIAcquiringStackBG{
+
+background: rgba(25, 17, 51, 0.20);
+}
+
+.UPIAcquiringStackGradientTop{
+      position:absolute;
+    border-radius: 175.5px;
+opacity: 0.61;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+  inset:13% 32% 56% 33%;
+
+}
+
+.ZyroUPICoreBorderLineGradient{
+    background: linear-gradient(180deg, var(--color-grey-12, #1C1D22) 0%, #707488 100%);
+}
+
+.ZyroUPICoreTopGradient{
+    position:absolute;
+   border-radius: 175.5px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px); 
+  inset:-16% 24% 70% 24%;
+  z-index:-1;
+}
+.ZyroUPICoreGradient1{
+    border-radius: 200px;
+    opacity: 0.7;
+    background: linear-gradient(7deg, rgba(79, 49, 180, 1) 6%, rgba(34, 21, 78, 1) 100%);
+    filter: blur(120px);
+    position: absolute;
+  
+    inset: 0% 16% 75% 46%;
+}
+.ZyroUPICoreGradient2{
+    border-radius: 200px;
+    opacity: 0.7;
+    background: linear-gradient(7deg, rgba(79, 49, 180, 1) 6%, rgba(34, 21, 78, 1) 100%);
+    filter: blur(120px);
+    position: absolute;
+  
+    inset: 72% 65% 0% 0%;
+}
+.ZyroUPICoreGradient3{
+    border-radius: 200px;
+    opacity: 0.7;
+    background: linear-gradient(7deg, rgba(79, 49, 180, 1) 6%, rgba(34, 21, 78, 1) 100%);
+    filter: blur(120px);
+    position: absolute;
+  
+    inset: 65% 0% 0% 47%;
+    z-index:20;
+}
+.UPIPluginTopGradient{
+   position:absolute;
+  border-radius: 175.5px;
+opacity: 0.61;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+inset: -4% 33% 76% 33%;
+}
+.UPIPluginBottomGradient1{
+  position:absolute;
+z-index:20;
+  background: linear-gradient(180deg, rgba(64, 28, 139, 0.44) 0%, rgba(255, 255, 255, 0.00) 100%);
+opacity: 0.75;
+filter: blur(91.38888549804688px);
+inset: 38% 62% 14% 3%;
+}
+.UPIPluginBottomGradient2{
+   position:absolute;
+z-index:20;
+  background: linear-gradient(180deg, rgba(64, 28, 139, 0.44) 0%, rgba(255, 255, 255, 0.00) 100%);
+opacity: 0.75;
+filter: blur(91.38888549804688px);
+inset: 38% 3% 14% 62%;
+}
+.UPIPluginHeaderGradient{
+  background: linear-gradient(234deg, #FFF 38.94%, #9573DE 72.6%, #FFF 89.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+@media(max-width:1023px){
+  .UPIAcquiringStackGradientTop{
+      inset:6% 32% 76% 33%;
+  } 
+  .ZyroUPICoreBorderGradient{
+      border: 0.3px solid transparent;
+    background: linear-gradient(#080219, #080219) padding-box, /* inner background */ linear-gradient(rgba(169, 1, 163, 0.3), rgba(111, 65, 210, 0.4)) border-box;
+    border-radius: 10px;
+
+} 
+
+.ZyroUPICoreGradient1{
+    inset:1% 42% 79% 0%;
+}
+.ZyroUPICoreGradient2{
+    inset: 79% 24% 1% 0%;
+    z-index:20;
+}
+.ZyroUPICoreGradient3{
+    display:none;
+}
+.ZyroUPICoreTopGradient{
+    display:none;
+}
+.UPIPluginBottomGradient1{
+  display:none;
+}
+.UPIPluginBottomGradient2{
+  display:none;
+}
+}
+@media(max-width:767px){
+  .UPIAcquiringStackGradientTop{
+      border-radius: 175.5px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+inset:9% 32% 79% 33%;
+  }
+  
+  .HeroSectionTopGradient{
+border-radius: 266.708px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(79, 49, 180, 0.86) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(45.05208206176758px);
+position:absolute;
+  inset:-11% 26% 100% 22%;
+
+}
+.HeroSectionImageGradient1{
+  display:none;
+}
+.HeroSectionImageGradient2{
+  display:none;
+}
+}
+@media(max-width:639px){
+  .CompleteSol-gradient-Top{
+      inset:2% 0% 69% 0%;
+  }  
+  .UPIPluginTopGradient{
+    border-radius: 175.5px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+    inset: -4% 32% 70% 32%;
+  }
+}

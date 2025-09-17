@@ -1,0 +1,226 @@
+.herosectionHeaderGradient {
+  background: linear-gradient(90deg, #ededed 0%, #9573de 50%, #f8f8f8 64.42%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.HeroSectionGradient{
+    position: absolute;
+  inset: 0% 25% 86% 25%;
+  z-index: -1;
+  border-radius: 175.5px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+}
+.cardBoxGradient3 {
+background: #4F31B4;
+background: linear-gradient(180deg,rgba(79, 49, 180, 1) 6%, rgba(34, 21, 78, 1) 100%);
+}
+
+.cardBoxGradient2{
+    background: #999999;
+background: linear-gradient(225deg,rgba(153, 153, 153, 1) 0%, rgba(20, 20, 20, 1) 100%);
+}
+.cardBoxHeaderGradient{
+    background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.ZyroCardHeaderGradient{
+   background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+}
+.zyroCardBox{
+border: 1px solid rgba(141, 49, 245, 0.20);  
+}
+.ZyroCardATMGradient{
+    border-radius: 50%;
+  opacity: 1;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(230px);
+  position: absolute;
+  inset: 39% 3% 12% 68%;
+  z-index: -1;
+}
+.SmartControlGradient1{
+    border-radius: 50%;
+  opacity: 0.7;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(80px);
+  position: absolute;
+  inset: 68% 58% 10% 1%;
+  z-index: 1;
+}
+
+.SmartControlGradient2{
+    border-radius: 50%;
+  opacity: 0.7;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(80px);
+  position: absolute;
+  inset:68% 2% 10% 58%;;
+  z-index: 1;
+}
+.SmartControlGradientTop{
+    border-radius: 50%;
+  opacity: 0.7;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(80px);
+  position: absolute;
+  inset:1% 15% 88% 50%;
+  z-index: 1;
+}
+.SmartControlHorizentalBorder{
+    background: linear-gradient(88deg,rgba(38, 38, 38, 1) 0%, rgba(173, 167, 133, 1) 87%, rgba(38, 38, 38, 1) 100%);
+}
+.SmartControlHeaderGradient{
+    background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.SmartControlBorderGradient{
+   border-radius: 22px;
+   border:0.7px solid #45465E;
+}
+.ListCardHeaderGradient{
+    background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.ListCardGradientTop{
+    border-radius: 50%;
+  opacity: 0.3;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(200px);
+  position: absolute;
+  inset:1% 19% 50% 16%;
+  z-index: 1;
+}
+.ListCardGradientBottom{
+    border-radius: 50%;
+  opacity: 0.3;
+  background: linear-gradient(
+    7deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+  filter: blur(200px);
+  position: absolute;
+  inset:60% 19% 1% 16%;
+  z-index: 1;
+}
+
+.staticCardBoxGradient{
+      position: absolute;
+    inset: 77% 11% -56% 6%;
+    z-index: 34;
+    border-radius: 50%;
+    opacity: 1;
+    background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+    filter: blur(34px);
+}
+
+.ZyroPaySpendingHeaderGradient1{
+  background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.ZyroPaySpendingHeaderGradient2{
+  background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.ZyroPaySpendingBoxGradient{
+background: radial-gradient(161.21% 160.39% at 5.71% -44.13%, #120832 0%, #0F0C19 100%);
+}
+.PrepaidbusinessBankingGradient1 {
+  border-radius: 382px;
+background: linear-gradient(180deg, #A489FF 0%, #343434 100%);
+filter: blur(200px);
+position:absolute;
+ inset:49% 67% 0% 0%;
+}
+.PrepaidbusinessBankingGradient2{
+  border-radius: 522px;
+background: linear-gradient(180deg, #170931 0%, #62537E 100%);
+filter: blur(200px);
+position:absolute;
+z-index:-1;
+  inset:21% -2% 1% -6%;
+}
+
+@media (max-width: 1023px) {
+  .herosectionHeaderGradient {
+    background: linear-gradient(
+      234deg,
+      #fff 18.75%,
+      #9573de 54.33%,
+      #fff 84.62%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .ZyroCardATMGradient{
+     inset: 68% 6% 2% 8%;
+  }
+}
+@media (max-width: 767px) {
+.SmartControlGradientTop{
+  inset:1% 30% 88% 4%;
+}
+.SmartControlGradient1{
+ inset:90% 62% 1% 3%;
+}
+.SmartControlGradient2{
+ inset:63% 1% 25% 46%;
+}
+.ListCardGradientTop{
+    inset:17% 11% 56% 11%;
+    z-index:-1;
+    opacity:1;
+}
+.ListCardGradientBottom{
+    inset:50% 11% 20% 11%;
+    z-index:-1;
+    opacity:1;
+}
+}
+
+
+.gradiantBorder{
+  background: linear-gradient(129deg,rgba(169, 1, 163, 0.3) 0%, rgba(111, 65, 210, 0.5) 100%);
+
+}
+
+.gradient-border {
+  background: linear-gradient(#434343, #22154E) border-box;
+}

@@ -1,0 +1,265 @@
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+:root {
+  --textgradiantMid: "linear-gradient(45deg, #EDEDED 24%, #9573DE 45%, #F7F7F7 72%)";
+  --gradientText: "linear-gradient(202deg, #fff, #9573DE 53%, #fff)";
+  --gradientText1: "radial-gradient(circle,rgba(255, 255, 255, 1) 100%, rgba(149, 115, 222, 1) 100%, rgba(255, 255, 255, 0.67) 100%)";
+  --featuregradientText: "linear-gradient(360deg,rgba(255, 255, 255, 0) 0%, rgba(80, 49, 181, 0.75) 43%, rgba(80, 49, 181, 1) 100%)";
+  --heroDesc: "#a9a9a9";
+  --featurediv: "linear-gradient(145deg,rgba(79, 49, 180, 1) 6%, rgba(34, 21, 78, 1) 100%)";
+  --gradientTextStart: "#fff";
+  --gradientTextMid: "#9573DE";
+  --gradientTextEnd: "#fff";
+  --background: #ffffff;
+  --mobileMenuShape: "url('/image/shades/mobile_menu_shad.svg')";
+  --white70: "rgba(255, 255, 255, 0.70)";
+  --white90: "rgba(255, 255, 255, 0.90)";
+  --white20: "rgba(255, 255, 255, 0.20)";
+  --white20Bg: "rgba(25, 17, 51, 0.20)";
+  --border20: "rgba(141, 49, 245, 0.40)";
+  --white80: "rgba(255, 255, 255, 0.80)";
+  --grey70: "rgba(191, 191, 191, 0.70)";
+  --newletterBG: "rgba(109, 236, 49, 0.02)";
+  --newletterboxBorder: "rgba(109, 236, 49, 0.50)";
+  --bordercolor1: "rgba(255, 255, 255, 0.20)";
+  --borderColor: "rgba(141, 49, 245, 0.2)";
+  --backgroundColor1: "rgba(8, 4, 17, 0.50)";
+  --gradientText2: "linear-gradient(234deg, #FFF 0%, #9573DE 22.6%, #FFF 100%)";
+  --backgroundColor2: "rgba(8, 4, 17, 0.00)";
+  --borderSmartExpenseColor: "linear-gradient(90deg,rgba(79, 49, 180, 1) 6%, rgba(34, 21, 78, 1) 100%)";
+  --bgCorporateCard: "rgba(25, 17, 51, 0.2)";
+  --bgCorporategradiant: "linear-gradient(90deg,rgba(121, 121, 121, 1) 0%, rgba(111, 65, 210, 1) 100%)";
+  --foreground: #171717;
+}
+/* ==== Background Image / Gradient Classes ==== */
+.mobileMenuShape {
+  background-image: url('/image/shades/mobile_menu_shad.svg');
+}
+
+.bg-textgradiantMid {
+  background-image: linear-gradient(45deg, #EDEDED 24%, #9573DE 45%, #F7F7F7 72%);
+}
+
+.bg-gradientText {
+  background-image: linear-gradient(202deg, #fff, #9573DE 53%, #fff);
+}
+
+.bg-gradientText1 {
+  background-image: radial-gradient(circle,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(149, 115, 222, 1) 100%,
+    rgba(255, 255, 255, 0.67) 100%
+  );
+}
+
+.bg-featuregradientText {
+  background-image: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(80, 49, 181, 0.75) 43%,
+    rgba(80, 49, 181, 1) 100%
+  );
+}
+
+/* ==== Color Classes ==== */
+.text-heroDesc {
+  color: #a9a9a9;
+}
+
+.bg-featurediv {
+  background: linear-gradient(
+    145deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  );
+}
+
+.gradientTextStart {
+  color: #fff;
+}
+
+.gradientTextMid {
+  color: #9573DE;
+}
+
+.gradientTextEnd {
+  color: #fff;
+}
+
+.text-white70 {
+  color: rgba(255, 255, 255, 0.70);
+}
+
+.text-white90 {
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.text-white20 {
+  color: rgba(255, 255, 255, 0.20);
+}
+
+.bg-white20Bg {
+  background-color: rgba(25, 17, 51, 0.20);
+}
+
+.border-border20 {
+  border: 1px solid rgba(141, 49, 245, 0.40);
+}
+
+.text-white80 {
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.text-grey70 {
+  color: rgba(191, 191, 191, 0.70);
+}
+
+.bg-newletterBG {
+  background-color: rgba(109, 236, 49, 0.02);
+}
+
+.border-newletterboxBorder {
+  border: 1px solid rgba(109, 236, 49, 0.50);
+}
+
+.border-bordercolor1 {
+  border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.border-bordercolor {
+  border: 1px solid rgba(141, 49, 245, 0.2);
+}
+
+.bg-backgroundColor1 {
+  background-color: rgba(8, 4, 17, 0.50);
+}
+
+.gradientText2 {
+  background-image: linear-gradient(234deg, #FFF 0%, #9573DE 22.6%, #FFF 100%);
+}
+
+.bg-backgroundColor2 {
+  background-color: rgba(8, 4, 17, 0.00);
+}
+
+.borderSmartExpenseColor {
+  border-image: linear-gradient(
+    90deg,
+    rgba(79, 49, 180, 1) 6%,
+    rgba(34, 21, 78, 1) 100%
+  ) 1;
+}
+
+.bg-bgCorporateCard {
+  background-color: rgba(25, 17, 51, 0.2);
+}
+
+.bgCorporategradiant {
+  background-image: linear-gradient(
+    90deg,
+    rgba(121, 121, 121, 1) 0%,
+    rgba(111, 65, 210, 1) 100%
+  );
+}
+
+
+
+
+
+body {
+  background-color: #0b051e;
+  font-family: "Inter", sans-serif;
+}
+
+.scroller-section {
+  display: grid;
+  place-items: center;
+  color: white;
+}
+.scroller-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.slider {
+  height: 55.77px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: white;
+  /* border-radius: 12px; */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.slider-track {
+  display: flex;
+  width: calc(200px * 14);
+  animation: scroll 30s linear infinite;
+  align-items: start;
+}
+.slide {
+  height: 55.77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  padding: 7px;
+}
+.slide img {
+  width: 120px;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+.slide img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.mobileMenuGradient {
+  position: absolute;
+  border-radius: 192px;
+  opacity: 0.75;
+  background: linear-gradient(
+    180deg,
+    rgba(79, 49, 180, 0.65) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: blur(100px);
+  inset: 0% 0% 38% 48%;
+}
+.faq-gradient {
+  background: linear-gradient(90deg, #ededed 0%, #9573de 50%, #f8f8f8 64.42%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/* src/index.css */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+/* tailwind.css or App.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

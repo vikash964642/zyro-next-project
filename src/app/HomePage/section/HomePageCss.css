@@ -1,0 +1,447 @@
+/* src/custom-scrollbar.css */
+
+/* WebKit browsers: Chrome, Safari, Edge */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+  height:90%
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+opacity: 0.9981;
+background: linear-gradient(0deg, #FEED7A 0%, #FF8400 48.96%, #DF91F7 100%);
+border-radius:4px;
+}
+.SoundboxImg{
+  width: 184px;
+  height: 187px;
+  z-index: 10;
+}
+.HeroRotateSection {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.Language {
+    position: absolute;
+    width: 55px;
+    height: 35px;
+    transform: translate(-50%,-50%);
+}
+.orbit1{
+  position: absolute;
+  width: 283px;
+  height: 283px;
+  border-radius: 50%;
+  top: 10%;
+  left: 10%;
+  border:2px dashed grey;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  /* background-color: #3b82f6;  */
+  border-radius: 4px;
+  border: 2px solid #3b82f6; 
+}
+
+/* Firefox */
+/* .custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #3b82f6 red; 
+} */
+.business-slider-parent{
+    border-radius: 23.163px;
+border: 0.965px solid rgba(141, 49, 245, 0.20);
+background: rgba(25, 17, 51, 0.20);
+}
+.business-slider-image-sec{
+    border-radius: 23.163px;
+border: 0.965px solid #765775;
+background: linear-gradient(0deg, #575E8E 0%, rgba(99, 99, 99, 0.00) 52.5%, rgba(119, 85, 122, 0.88) 100%);
+}
+
+
+   
+
+.home-hero_gradient1 {
+
+    z-index: -1;
+    position: absolute;
+border-radius: 541.022px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.80) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(65px);
+    inset: 0% 30% 50% 20%
+} 
+
+.home-hero_gradient2 {
+
+    z-index: -1;
+    position: absolute;
+border-radius: 541.022px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(96, 30, 249, 0.52) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+
+    inset: 0% 0% 46% 51%;
+}
+.home-hero_gradient3 {
+
+    z-index: -1;
+    position: absolute;
+background: linear-gradient(180deg, rgba(96, 30, 249, 0.24) 0%, rgba(255, 255, 255, 0.00) 100%);
+opacity: 0.75;
+filter: blur(100px);
+    inset: 28% 70% 5% 0%;
+}
+.home-hero_gradientBottom {
+    z-index: -1;
+    position: absolute;
+    opacity: 0.75;
+border-radius: 408.055px;
+background: radial-gradient(39.32% 39.32% at 50% 39.32%, #401C8B 0%, rgba(46, 46, 46, 0.00) 100%);
+    filter: blur(22px);
+  inset:10% 29% 0% -26%;
+} 
+
+
+
+.heroSectionHeadingGradient1{
+  background: linear-gradient(234deg, #FFF 0%, #9573DE 53%, #F0EBFA 81.67%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.heroSectionHeadingGradient2{
+background: linear-gradient(234deg, #FFF 0%, #9573DE 53%, #F0EBFA 81.67%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.heroSectionHeadingGradient3{
+  background: linear-gradient(234deg, #FFF 44.23%, #9573DE 53.37%, #FFF 94.71%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.heroSectionHeadingGradient4{
+  background: linear-gradient(234deg, #FFF 32.69%, #9573DE 53%, #F0EBFA 76.44%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.heroSectionHeadingGradient3Mob{
+background: linear-gradient(90deg, #9573DE 0%, #FFF 53.85%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.Newaletter-subscribe-btn{
+
+background: #3E8222;
+box-shadow: 0px 4.605px 16.119px 0px rgba(74, 58, 255, 0.16);
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px; /* 87.5% */
+}
+.ControlFinance-custom-shadow {
+  box-shadow: 0px 3.204px 11.213px 0px rgba(74, 58, 255, 0.16);
+}
+.sap_ControlFinance{
+  background-position-x: center;
+    background-position-y: -7rem;
+}
+.sap{
+  background-position-x: center;
+    background-position-y: -5rem;
+}
+
+.ControlFinance-gradiant{
+  border-radius: 138px;
+  opacity: 0.2;
+  background: linear-gradient(
+    178deg,
+    rgba(64, 28, 139, 0.6) 80%,
+    rgba(255, 255, 255, 0.76) 0%
+  );
+  filter: blur(225px);
+  position: absolute;
+  inset: 0% 10% 2% 16%;;
+  z-index: -1;
+}
+
+.ManagingCorporate-gradient{
+opacity: 0.2;
+background: linear-gradient(32deg, rgba(141, 49, 245, 0.00) -18.15%, rgba(255, 255, 255, 0.73) 44.52%, rgba(141, 49, 245, 0.73) 81.85%);
+filter: blur(70px);
+position:absolute;
+  inset: -12% 0% 40% 51%;
+  z-index:-1;
+}
+.ManagerCorporateHeaderGradient{
+background: linear-gradient(234deg, #FFF 0%, #9573DE 67.79%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.ExpenceControlHeaderGradient{
+  background: linear-gradient(234deg, #FFF 34.62%, #9573DE 63.46%, #FFF 74.04%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.ConnectedBanking-gradient{
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.44) 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 1;
+    border-radius: 501px;
+    filter: blur(182.388885px);
+    position: absolute;
+    z-index: -1;
+    inset: 7% 0% 0% 0%;
+}
+.VerticleSliderGradient{
+    border-radius: 50%;
+  position: absolute;
+  inset:38% 7% 29% 62%;
+  z-index: -1;
+  background: linear-gradient(32deg, rgba(141, 49, 245, 0.00) -18.15%, #FFF 44.52%, #8D31F5 81.85%);
+opacity: 0.4;
+filter: blur(95px);
+}
+
+.VerticleSliderGradientMob{
+  border-radius: 50%;
+  position: absolute;
+  inset:5% 37% 5% 34%;
+  z-index: -1;
+  background: linear-gradient(32deg, rgba(141, 49, 245, 0.00) -18.15%, #FFF 44.52%, #8D31F5 81.85%);
+opacity: 0.3;
+filter: blur(100px);
+}
+.BankAccountManagementCss{
+  border-radius: 16.516px;
+border:1px solid rgba(79, 49, 180, 0.4);
+background: #0B051E;
+}
+.BankAccountManagementCss2{
+  border:1px solid rgba(79, 49, 180, 0.4);
+
+}
+.BankAccountManagementHeaderGradient{
+  background: linear-gradient(234deg, #FFF 0%, #9573DE 53%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.BankAccountManagementHeaderGradientMob{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.90) 16.35%, rgba(155, 120, 234, 0.90) 49.67%, rgba(255, 255, 255, 0.90) 82.69%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.ZyroPosMachine-gradient{
+  border-radius: 686px;
+opacity: 0.2;
+background: linear-gradient(32deg, rgba(141, 49, 245, 0.00) 0%, #8D31F5 100%, #FFF 100%);
+filter: blur(92px);
+position:absolute;  
+  inset:-36% 11% 40% 0%;
+  z-index:-1;
+}
+.ZyroPosMachineHeaderGradient{
+  background: linear-gradient(234deg, #FFF 0%, #9573DE 69.23%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.instant-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(64, 28, 139, 0.44) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0.65;
+  filter: blur(20px);
+  position: absolute;
+  inset: 14% 0% 48% 0%;
+}
+.instantPaymentHeaderGradient{
+  background: linear-gradient(234deg, #FFF 38.94%, #9573DE 72.6%, #FFF 89.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.scroller-left-gradient{
+background: linear-gradient(90deg,rgba(11, 5, 31, 1) 0%, rgba(11, 5, 31, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  opacity: 1;
+  /* filter: blur(-80px); */
+  position: absolute;
+  inset: 0% 90% 0% 0%;
+  z-index: 1;
+}
+.scroller-right-gradient{
+background: linear-gradient(270deg,rgba(11, 5, 31, 1) 0%, rgba(11, 5, 31, 1) 0%, rgba(255, 255, 255, 0) 100%);  /* filter: blur(-80px); */
+  position: absolute;
+  inset: 0% 0% 0% 90%;
+  z-index: 1;
+}
+
+.VerticleSlider-gradient{
+   background: linear-gradient(32deg, rgba(141, 49, 245, 0.00) -18.15%, #FFF 44.52%, #8D31F5 81.85%);
+opacity: 0.2;
+filter: blur(90px); 
+position:absolute;  
+  inset:-36% 0% 40% 0%;
+}
+.CotrolFinance-gradient{
+  border-radius: 686px;
+opacity: 0.2;
+background: linear-gradient(32deg, rgba(141, 49, 245, 0.00) 0%, #8D31F5 100%, #FFF 100%);
+filter: blur(150px);  
+position:absolute;  
+  inset:-36% 0% 40% 0%;
+}
+
+
+.Newsletter-gradient{
+z-index:-1;
+border-radius: 1320.214px;
+background: rgba(109, 236, 49, 0.10);
+filter: blur(100px); 
+position:absolute;  
+  inset:56% 8% -21% 8%;
+  
+}
+
+.mobile-home-gradient{
+width: 463px;
+height: 222px;
+transform: rotate(90deg);
+flex-shrink: 0;
+border-radius: 192px;
+opacity: 0.75;
+background: linear-gradient(180deg, rgba(79, 49, 180, 0.65) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(100px);
+/* position:absolute; */
+}
+/* .bg-mobileMenuSape{
+  background: #2A7B9B;
+
+} */
+
+
+/* index.css or a global CSS file */
+.slick-slide-card {
+  /* transform: scale(0.6); */
+  opacity: 0.5;
+
+}
+
+.slick-center .slick-slide-card {
+  /* transform: scale(1); */
+  opacity: 1;
+  z-index: 10;
+
+}
+.slick-slider .slick-dots {
+  margin-top: 1.5rem !important;
+  position: relative !important;
+}
+ .slick-dots li{
+  margin:0px;
+  display:flex !important;
+  justify-content:center !important;
+  align-items:center !important;
+  width:15px !important;
+  height:15px !important;
+ }
+.slick-track{
+  display:flex !important;
+  align-items:center !important;
+  /* justify-content:space-between; */
+}
+.slider-bg-gradient{
+  background: linear-gradient(180deg, rgba(14, 6, 37, 0.32) 0%, rgba(30, 14, 81, 0.32) 30.77%, rgba(11, 5, 30, 0.32) 100%);
+}
+
+
+
+.abcd{
+
+box-shadow: 0px 6.441px 8.588px 0px rgba(0, 0, 0, 0.16);
+backdrop-filter: blur(15.028546333312988px);
+}
+article.accordion section,
+article.accordion section h2
+{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.business-gradient{
+  background: linear-gradient(234deg, #FFF 0%, #9573DE 22.6%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.verticlesliderZyroGradient{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.90) 0%, rgba(141, 49, 245, 0.90) 91.17%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width:999px){
+  .sap_ControlFinance{
+  background-position-x: center;
+    background-position-y: 1rem;
+}
+}
+@media (max-width:500px){
+  .sap_ControlFinance{
+  background-position-x: center;
+    background-position-y: 4rem;
+}
+
+.orbit1{
+  width: 248px;
+  height: 248px;
+}
+.SoundboxImg{
+  width: 153px;
+  height: 180px;
+}
+}
+@media (max-width:330px){
+  .sap_ControlFinance{
+  background-position-x: center;
+    background-position-y: 8rem;
+}
+}
