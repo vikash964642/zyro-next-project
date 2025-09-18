@@ -79,7 +79,7 @@ export default function HeroSection() {
       
    <button
         
-          className="hero-prev absolute z-20 lg:left-[50px] xl:left-[90px] min-[1450px]:left-[8%] min-[1750px]:left-[15%] top-[50%] text-[18px] text-[#8E8C92]  rounded-full w-[40px] h-[40px] border-[2px] border-[#8E8C92] lg:flex justify-center items-center hidden"
+          className="hero-prev absolute z-20 lg:left-[50px] xl:left-[90px] min-[1450px]:left-[8%] min-[1750px]:left-[15%] top-[50%] text-[18px] text-[#8E8C92]  rounded-full w-[40px] h-[40px] cursor-pointer border-[2px] border-[#8E8C92] lg:flex justify-center items-center hidden"
         >
           <FontAwesomeIcon icon={faAngleLeft} />
         </button>
@@ -144,8 +144,8 @@ export default function HeroSection() {
 
                 <div className="flex gap-[20px] lg:gap-[35px] items-center mt-[35px] flex-col lg:flex-row">
                   {index !== 1 ? (
-                    <Link href='/contact-us' onClick={ScrollTop} className="bg-[#4F31B4] rounded-[24.77px] h-[45px] w-[148px] text-[#FFF] text-[18px] font-semibold flex justify-center items-center">
-                      Get Started
+                    <Link href='/contact-us' onClick={ScrollTop} className="bg-[#4F31B4] rounded-[24.77px] h-[45px] w-[218px] text-[#FFF] text-[18px] font-semibold flex justify-center items-center">
+                      Get Your Device
                     </Link>
                   ) : (
                     <Link href='/contact-us' onClick={ScrollTop} className="bg-[#4F31B4] rounded-[24.77px] h-[48px] w-[218px] text-[#FFF] text-[20px] font-semibold flex justify-center items-center">
@@ -276,7 +276,7 @@ export default function HeroSection() {
                 <Link href='/contact-us' onClick={ScrollTop}
                   className="bg-[#4F31B4] max-[375px]:w-[100%] w-[325px] h-[50px] rounded-[30px] text-[20px] text-[#FFF] font-medium flex justify-center items-center"
                 >
-                  {index === 1 ? "Get Your Speaker" : "Get Started"}
+                  {index === 1 ? "Get Your Speaker" : "Get Your Device"}
                 </Link>
               </div>
 

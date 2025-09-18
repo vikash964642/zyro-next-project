@@ -117,6 +117,7 @@ ScrollTop();
                        </div>
           </div>
 
+
        <div className="flex justify-center lg:hidden mt-[44px] max-[360px]:px-[20px] px-[35px] sm:px-0">
            <p className=" sm:w-[500px] text-white max-[400px]:text-19px text-[20px] sm:text-[24px] font-medium leading-[36px]  align-middle text-center ">
             The Smart Way to Accept Payments with Instant Voice Alerts

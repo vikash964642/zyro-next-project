@@ -47,21 +47,29 @@ const NavLinks = ({ handleClick }) => {
     }
   };
 
+  // const handleSublinkClick = () => {
+  //   if (isMobile) {
+  //     setActiveLink(null);
+  //     handleClick?.();
+  //   }
+  //   setHoveredSublink1Index(null);
+  //   setHoveredSublink2Index(null);
+  // };
+
   const handleSublinkClick = () => {
-    if (isMobile) {
-      setActiveLink(null);
-      handleClick?.();
-    }
-    setHoveredSublink1Index(null);
-    setHoveredSublink2Index(null);
-  };
+  setActiveLink(null);       // Close active dropdown
+  handleClick?.();           // Close parent menu (Navbar's setOpen(false))
+  setHoveredSublink1Index(null);
+  setHoveredSublink2Index(null);
+};
 
   const handleBlogLinkClick = (e, link) => {
-    handleClick();
+   
     if (link.name === "Blog") {
       e.preventDefault();
       window.open(link.link, "_blank");
     }
+      handleClick?.();
   };
 
   return (

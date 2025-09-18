@@ -146,6 +146,7 @@ color: #FFF;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
+cursor: pointer;
 line-height: 21px; /* 87.5% */
 }
 .ControlFinance-custom-shadow {

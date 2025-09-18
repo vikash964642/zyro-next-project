@@ -8,7 +8,7 @@ const sliders = [
   { image: '/assets/icons/account-to-account.webp', paragraph: "Account-to- Account Payments" },
   { image: '/assets/icons/seamless-fund.webp', paragraph: "Seamless Fund Transfers" },
   { image: '/assets/icons/user-friendly.png', paragraph: "User-Friendly Dashboard" },
-  { image: '/assets/icons/account-system.webp', paragraph: "Accounting System  Integration" },
+  { image: '/assets/icons/account-systemm.webp', paragraph: "Accounting System  Integration" },
   { image: '/assets/icons/enhanced.webp', paragraph: "Enhanced Security" },
 ];
 
@@ -85,7 +85,7 @@ function BankAccountManagement() {
                 alt="Card inner bg"
                 className="object-cover"
               />
-              <img
+              <Image
                 src={slider.image}
                 alt={slider.paragraph}
                 width={56}

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const CardSlide = [
   {
-    img: '/image/ExpenseManagement/ExpenseCustomcontrol.svg',
+    img: '/image/ExpenseManagement/ExpenseCustomControl.svg',
     heading1: "Custom",
     heading2:" Controls",
     paragraph: "Set rules, policies, and spending limits",

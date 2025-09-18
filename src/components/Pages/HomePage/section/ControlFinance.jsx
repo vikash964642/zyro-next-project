@@ -1,6 +1,5 @@
 
 import Link from 'next/link';
-import sape from '/image/AboutUs/backgroundImage.svg'
 
 function ControlFinance() {
    const ScrollTop = () => {
@@ -9,7 +8,7 @@ function ControlFinance() {
   return (
     <section className='max-w-screen-lg mx-auto  relative'>
         <div className="ControlFinance-gradiant"></div>
-      <div  style={{backgroundImage:`url(${sape})`}} className="sap_ControlFinance bg-center bg-no-repeat bg-contain min-h-[70vh] flex flex-col justify-center items-center">
+      <div  style={{backgroundImage:`url(${'/image/AboutUs/backgroundImage.svg'})`}} className="sap_ControlFinance bg-center bg-no-repeat bg-contain min-h-[65vh] flex flex-col justify-center items-center">
       
 
         <p className="max-[360px]:text-[24px] text-[28px] lg:text-[45px] text-center text-white90 font-medium max-[360px]:w-full w-[327px] sm:w-full">Take control of your Finance now</p>  
