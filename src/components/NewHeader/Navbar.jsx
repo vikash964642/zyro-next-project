@@ -5,8 +5,8 @@ import NavLinks from "./NavLinks";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 
-import { useRouter } from "next/navigation";
-import { IoMenu, IoClose } from "react-icons/io5";
+// import { useRouter } from "next/navigation";
+// import { IoMenu } from "react-icons/io5";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
