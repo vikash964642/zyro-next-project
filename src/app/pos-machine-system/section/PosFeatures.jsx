@@ -1,4 +1,5 @@
-"use client";
+"use client"
+import './Pos.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -73,7 +74,7 @@ function PosFeatures() {
         ))}
             </Swiper>
       </div>
-      <div className=" flex justify-center md:hidden custom-Pos-pagination mt-[21px]"></div>
+      <div className=" flex justify-center  custom-Pos-pagination mt-[21px] lg:mt-[35px]"></div>
     </section>    
   )
 }
