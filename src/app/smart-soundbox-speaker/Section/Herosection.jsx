@@ -120,7 +120,7 @@ function Herosection() {
               The Smart Way to Accept Payments with Instant Voice Alerts
             </p>
           </div>
-          <div className="flzex justify-center mt-[39px] lg:hidden ">
+          <div className="flex justify-center mt-[39px] lg:hidden ">
             <Link
               href="/contact-us"
               className="text-white w-[224px] h-[46px] bg-[#4F31B4] rounded-[24.77px] text-[18px] font-medium text-center flex justify-center items-center"

@@ -1,14 +1,16 @@
 "use client";
 import { useState } from "react";
+import { IoMenu, IoClose } from "react-icons/io5";
 import NavLinks from "./NavLinks";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   const ScrollTop=()=>{
-    window.scrollTo({top: 0, behavior: 'smooth'});
+    window.scrollTo({top: 0});
   }
 
   const handleClick = () => {
@@ -25,18 +27,18 @@ const Navbar = () => {
   return (
     <section className="lg:bg-white bg-[#D9D9D9] sticky top-0 z-50">
       <nav className=" max-w-screen-lg mx-auto">
-        <div className="h-[74px] lg:h-[70px] lg:pl-[51px] px-[25px] lg:px-0 flex items-center font-medium justify-between lg:border-b  ">
+        <div className="h-[74px] lg:h-[70px] lg:pl-[51px] px-[25px] lg:px-0 flex items-center font-medium justify-between   ">
           <div className="flex justify-between z-50  lg:w-auto w-full ">
             <img src={'/image/zyro-logo.svg'} alt="logo" className="lg:cursor-pointer h-9 custom-style" onClick={handleClickHome}/>
             <div className="flex lg:hidden">
               
-              <div
-                className="text-3xl lg:hidden text-[#6F41D2]  "
-                onClick={() => setOpen(!open)}
-                aria-label={open ? "Close menu" : "Open menu"}
-              >
-                <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
-              </div>
+             <div
+        className="text-3xl lg:hidden text-[#6F41D2] cursor-pointer"
+        onClick={() => setOpen(!open)}
+        aria-label={open ? "Close menu" : "Open menu"}
+      >
+        {open ? <IoClose /> : <IoMenu />}
+      </div>
             </div>
           </div>
 
