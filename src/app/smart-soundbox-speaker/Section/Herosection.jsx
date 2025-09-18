@@ -1,12 +1,16 @@
-"use client";
+// 
+
+
+"use client"
 import { useEffect } from "react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { gsap } from "gsap";
 
-import "./Soundbox.css";
 
-function Herosection() {
-  useEffect(() => {
+import './Soundbox.css'
+
+function Herosection() { 
+   useEffect(() => {
     const Language = document.querySelectorAll(".Language");
 
     const positionLogos = () => {
@@ -14,11 +18,15 @@ function Herosection() {
       let center = 140;
 
       // ✅ Responsive adjustments
-      if (window.innerWidth <= 480) {
-        orbitRadius = 120; // Mobile
+        if (window.innerWidth <= 375) { 
+        orbitRadius = 110;   // Mobile
+        center = 110;
+      }
+      else if (window.innerWidth <= 480) { 
+        orbitRadius = 120;   // Mobile
         center = 120;
-      } else if (window.innerWidth <= 768) {
-        orbitRadius = 135; // Tablet
+      } else if (window.innerWidth <= 768) { 
+        orbitRadius = 135;  // Tablet
         center = 135;
       }
 
@@ -62,10 +70,14 @@ function Herosection() {
       window.removeEventListener("resize", positionLogos);
     };
   }, []);
-
-  const ScrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+  const router = useRouter();
+   const ScrollTop = () => {
+    window.scrollTo({ top: 0 });
   };
+    const handleLinkClick = (pageName) => {
+ScrollTop();
+  router.push(`/contact-us?page=${encodeURIComponent(pageName)}`);
+};
   return (
     <section className="">
       <div className="max-w-screen-lg mx-auto  mt-[80px] lg:mt-[150px] relative">
@@ -79,58 +91,42 @@ function Herosection() {
               The Smart Way to Accept Payments with Instant Voice Alerts
             </p>
             <div className="text-center lg:text-left mt-[39px] hidden lg:block">
-              <Link
-                href="/contact-us"
-                className="text-white w-[224px] h-[46px] bg-[#4F31B4] rounded-[24.77px] text-[18px] font-medium text-center flex justify-center items-center"
-              >
-                <span
-                onClick={ScrollTop}>
-
+              <button onClick={() => handleLinkClick("SoundBox")} className="text-white w-[224px] h-[46px] bg-[#4F31B4] rounded-[24.77px] text-[18px] font-medium text-center flex justify-center items-center">
                 Get Your Speaker
-                </span>
-              </Link>
+              </button>
             </div>
           </div>
-          <div className="flex justify-center items-center lg:w-[50%] px-[30px] lg:px-[0px] ">
+          <div className="flex justify-center items-center lg:w-[50%]  ">
             <div className="HeroRotateSection">
-              {/* Center Zyro Logo */}
-              <div className="SoundboxImg">
-                <img
-                  src={"/image/soundbox/soundbox12121.webp"}
-                  alt="Soundbox Image"
-                />
-              </div>
-
-              {/* Orbit container */}
-              <div className="orbit1">
-                <img src={"image/soundbox/gujrati.svg"} className="Language" />
-                <img src={"image/soundbox/hindi.svg"} className="Language" />
-                <img src={"image/soundbox/kannad.svg"} className="Language" />
-                <img src={"image/soundbox/marathi.svg"} className="Language" />
-                <img src={"image/soundbox/punjabi.svg"} className="Language" />
-                <img src={"image/soundbox/malyalam.svg"} className="Language" />
-                <img src={"image/soundbox/bangla.svg"} className="Language" />
-                <img src={"image/soundbox/english.svg"} className="Language" />
-              </div>
-            </div>
+                         {/* Center Zyro Logo */}
+                         <div className="SoundboxImg">
+                           <img src='/image/soundbox/soundbox12121.webp' alt="Soundbox Image" />
+                         </div>
+           
+                         {/* Orbit container */}
+                         <div className="orbit1">
+                           <img src='/image/soundbox/gujrati.svg' className="Language" />
+                           <img src='/image/soundbox/hindi.svg' className="Language" />
+                           <img src='/image/soundbox/kannad.svg' className="Language" />
+                           <img src='/image/soundbox/marathi.svg' className="Language" />
+                           <img src='/image/soundbox/punjabi.svg' className="Language" />
+                           <img src='/image/soundbox/malyalam.svg' className="Language" />
+                           <img src='/image/soundbox/bangla.svg' className="Language" />
+                           <img src='/image/soundbox/english.svg' className="Language" />
+                         </div>
+                       </div>
           </div>
 
-          <div className="flex justify-center lg:hidden mt-[44px] max-[360px]:px-[20px] px-[35px] sm:px-0">
-            <p className=" sm:w-[500px] text-white max-[400px]:text-19px text-[20px] sm:text-[24px] font-medium leading-[36px]  align-middle text-center ">
-              The Smart Way to Accept Payments with Instant Voice Alerts
-            </p>
-          </div>
+
+       <div className="flex justify-center lg:hidden mt-[44px] max-[360px]:px-[20px] px-[35px] sm:px-0">
+           <p className=" sm:w-[500px] text-white max-[400px]:text-19px text-[20px] sm:text-[24px] font-medium leading-[36px]  align-middle text-center ">
+            The Smart Way to Accept Payments with Instant Voice Alerts
+          </p>
+       </div>
           <div className="flex justify-center mt-[39px] lg:hidden ">
-            <Link
-              href="/contact-us"
-              className="text-white w-[224px] h-[46px] bg-[#4F31B4] rounded-[24.77px] text-[18px] font-medium text-center flex justify-center items-center"
-            >
-              <span
-              onClick={ScrollTop}>
+            <button onClick={() => handleLinkClick("SoundBox")} className="text-white w-[224px] h-[46px] bg-[#4F31B4] rounded-[24.77px] text-[18px] font-medium text-center flex justify-center items-center">
               Get Your Speaker
-
-              </span>
-            </Link>
+            </button>
           </div>
         </div>
       </div>

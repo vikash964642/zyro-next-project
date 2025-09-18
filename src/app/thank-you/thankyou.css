@@ -1,0 +1,22 @@
+.ThankYouHeaderGradient{
+    background: linear-gradient(90deg, #EDEDED 0%, #9573DE 50%, #F8F8F8 64.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.ThankYouGradient1{
+    position:absolute;
+    border-radius: 138px;
+opacity: 0.54;
+background: linear-gradient(180deg, rgba(64, 28, 139, 0.59) 0%, rgba(255, 255, 255, 0.00) 100%);
+filter: blur(91.38888549804688px);
+    inset:33% 29% 29% 29%;
+    z-index:20
+}
+
+@media(max-width:1023px){
+    .ThankYouGradient1{
+        inset:35% 10% 38% 10%;
+    }
+}

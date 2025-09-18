@@ -5,6 +5,8 @@ import NavLinks from "./NavLinks";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 
+import { useRouter } from "next/navigation";
+import { IoMenu, IoClose } from "react-icons/io5";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -32,13 +34,17 @@ const Navbar = () => {
             <img src={'/image/zyro-logo.svg'} alt="logo" className="lg:cursor-pointer h-9 custom-style" onClick={handleClickHome}/>
             <div className="flex lg:hidden">
               
-             <div
-        className="text-3xl lg:hidden text-[#6F41D2] cursor-pointer"
-        onClick={() => setOpen(!open)}
-        aria-label={open ? "Close menu" : "Open menu"}
-      >
-        {open ? <IoClose /> : <IoMenu />}
-      </div>
+
+              <div
+                className="text-3xl lg:hidden text-[#6F41D2]  "
+                onClick={() => setOpen(!open)}
+                aria-label={open ? "Close menu" : "Open menu"}
+              >
+                {/* <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon> */}
+                     {/* <ion-icon icon={open ? close : menu}></ion-icon> */}
+                     {open ? <IoClose /> : <IoMenu />}
+
+              </div>
             </div>
           </div>
 
