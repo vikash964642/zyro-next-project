@@ -3,12 +3,13 @@ import { useState } from "react";
 import NavLinks from "./NavLinks";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-
+// import { menu, close } from "ionicons/icons";
+import { IoMenu, IoClose } from "react-icons/io5";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const ScrollTop=()=>{
-    window.scrollTo({top: 0, behavior: 'smooth'});
+    window.scrollTo({top: 0});
   }
 
   const handleClick = () => {
@@ -35,7 +36,10 @@ const Navbar = () => {
                 onClick={() => setOpen(!open)}
                 aria-label={open ? "Close menu" : "Open menu"}
               >
-                <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
+                {/* <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon> */}
+                     {/* <ion-icon icon={open ? close : menu}></ion-icon> */}
+                     {open ? <IoClose /> : <IoMenu />}
+
               </div>
             </div>
           </div>

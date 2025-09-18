@@ -259,3 +259,24 @@ inset:-14% 15% 100% 15%;
     height: 18px;
   }
 }
+@media (max-width: 375px) {
+  .HeroRotateSection {
+    width:100%;
+    height: 330px;
+  }
+
+  .SoundboxImg {
+    width: 130px;
+    height: 130px;
+  }
+
+  .orbit1 {
+    width: 220px;
+    height: 220px;
+  }
+
+  .Language {
+    width: 40px;
+    height: 18px;
+  }
+}
