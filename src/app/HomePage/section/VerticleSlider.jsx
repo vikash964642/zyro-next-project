@@ -109,7 +109,7 @@ export default function VerticleSlider() {
               >
                 <button
                   onClick={() => handleClick(idx)}
-                  className="w-full h-full px-2 py-[25px] flex justify-center items-end transition-all duration-500"
+                  className="w-full h-full px-2 py-[25px] flex justify-center items-end transition-all duration-500 cursor-pointer"
                 >
                   <span
                     className="block text-[#686868] text-[23px] font-semibold vertical-rl rotate-180"

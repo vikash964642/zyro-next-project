@@ -143,7 +143,7 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <button  onClick={() => handleLinkClick("Footer")}>
+                  <button  onClick={() => handleLinkClick("Footer")} className="cursor-pointer">
                     Contact Us
                   </button>
                 </li>
@@ -363,9 +363,9 @@ function Footer() {
             <Link href="https://www.instagram.com/my_zyro/?utm_medium=copy_link" target="_blank">
               <img src={'/image/FooterImage/Instagram.svg'} className=""></img>
             </Link>
-            {/* <Link href="https://www.youtube.com/@Zyro-y9l" target="_blank">
+            <Link href="https://www.youtube.com/@Zyro-y9l" target="_blank">
               <img src={'/image/FooterImage/Youtube.svg'} className=""></img>
-            </Link> */}
+            </Link>
             <Link href="https://www.linkedin.com/company/myzyro/" target="_blank">
               <img src={'/image/FooterImage/LinkedIn.svg'} className=""></img>
             </Link>
@@ -423,9 +423,9 @@ function Footer() {
             <Link href="https://www.instagram.com/my_zyro/?utm_medium=copy_link" target="_blank">
               <img src={'/image/FooterImage/Instagram.svg'} className=""></img>
             </Link>
-            {/* <Link href="https://www.youtube.com/@Zyro-y9l" target="_blank">
+            <Link href="https://www.youtube.com/@Zyro-y9l" target="_blank">
               <img src={'/image/FooterImage/Youtube.svg'} className=""></img>
-            </Link> */}
+            </Link>
             <Link href="https://www.linkedin.com/company/myzyro/" target="_blank">
               <img src={'/image/FooterImage/LinkedIn.svg'} className=""></img>
             </Link>

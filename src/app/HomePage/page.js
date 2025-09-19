@@ -12,6 +12,7 @@ import ConnectedBanking from "./section/ConnectedBanking";
 import NewsletterBox from "./section/NewsletterBox";
 import ControlFinance from "./section/ControlFinance";
 import VerticleSlider from "./section/VerticleSlider";
+import CardSliders from "./section/CardSliders";
 
 
 export default function HomePage() {
@@ -24,6 +25,7 @@ export default function HomePage() {
       <ZyroSoundBox />
       <InstantPayment />
       <ZyroPosMachine />
+      <CardSliders />
       <ManagingCorporate />
       <ExpenceControl />
       <VerticleSlider />

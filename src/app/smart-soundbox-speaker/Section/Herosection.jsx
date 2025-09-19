@@ -91,7 +91,7 @@ ScrollTop();
               The Smart Way to Accept Payments with Instant Voice Alerts
             </p>
             <div className="text-center lg:text-left mt-[39px] hidden lg:block">
-              <button onClick={() => handleLinkClick("SoundBox")} className="text-white w-[224px] h-[46px] bg-[#4F31B4] rounded-[24.77px] text-[18px] font-medium text-center flex justify-center items-center">
+              <button onClick={() => handleLinkClick("SoundBox")} className="text-white w-[224px] h-[46px] bg-[#4F31B4] rounded-[24.77px] text-[18px] font-medium text-center flex justify-center items-center cursor-pointer">
                 Get Your Speaker
               </button>
             </div>
@@ -124,7 +124,7 @@ ScrollTop();
           </p>
        </div>
           <div className="flex justify-center mt-[39px] lg:hidden ">
-            <button onClick={() => handleLinkClick("SoundBox")} className="text-white w-[224px] h-[46px] bg-[#4F31B4] rounded-[24.77px] text-[18px] font-medium text-center flex justify-center items-center">
+            <button onClick={() => handleLinkClick("SoundBox")} className="text-white w-[224px] h-[46px] bg-[#4F31B4] rounded-[24.77px] text-[18px] font-medium text-center flex justify-center items-center cursor-pointer">
               Get Your Speaker
             </button>
           </div>
